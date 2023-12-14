@@ -3,6 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>自己紹介</title>
+  <style>
+    /* CSSスタイルをここに追加 */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #666; /* テキストの色を灰色に変更 */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #009688;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    /* 基本情報と趣味を枠で分けるスタイル */
+    .section-divider {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 
@@ -11,11 +53,15 @@
 </header>
 
 <main>
-  <h2>基本情報</h2>
-  <p>I am 004_iy.</p>
+  <div class="section-divider"> <!-- 基本情報と趣味を区切る枠 -->
+    <h2>基本情報</h2>
+    <p>I am 004_iy.</p>
+  </div>
 
-  <h2>趣味</h2>
-  <p>ギター・写真・F1観戦</p>
+  <div class="section-divider"> <!-- 基本情報と趣味を区切る枠 -->
+    <h2>趣味</h2>
+    <p>ギター・写真・F1観戦</p>
+  </div>
 </main>
 
 </body>
